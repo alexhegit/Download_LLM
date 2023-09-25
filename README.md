@@ -26,7 +26,7 @@ pip install -r requirements.txt -i https://pypi.mirrors.ustc.edu.cn/simple --tru
 ```bash
 conda Download_LLM
 # 从modelscope魔塔社区下载模型，该社区由Aliyun支撑。请自行确认https://modelscope.cn/models中以支持的模型及模型ID
-python ms_model_download.py --repo_id 模型ID
+python ms_model_download.py --repo_id 模型ID --revision 模型版本
 # 举例
 python ms_model_download.py --repo_id baichuan-inc/Baichuan2-13B-Chat-4bits --revision v1.0.2
 ```
