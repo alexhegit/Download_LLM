@@ -14,7 +14,7 @@ source ~/.bashrc
 ## 2、创建虚拟环境
 
 ```bash
- git clone https://github.com/alexhegit/Download_LLM.git
+git clone https://github.com/alexhegit/Download_LLM.git
 cd Download_LLM
 conda create -n Download_LLM python=3.10 -y
 conda activate Download_LLM
