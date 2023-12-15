@@ -45,7 +45,8 @@ python ms_model_download.py --repo_id baichuan-inc/Baichuan2-13B-Chat-4bits --re
 ## 2. 下载模型
 ![Alt text](image-1.png)
 
-# 增加一个基于huggingface_cli的bash脚本，方便从HF下载所有模型相关文件hf_dl.sh。
+# 从HugggingFace下载模型（支持断定续传）
+增加一个基于huggingface_cli的bash脚本，方便从HF下载所有模型相关文件hf_dl.sh。
 https://github.com/alexhegit/Download_LLM/blob/main/hf_dl.sh
 需要依赖安装pip install -U huggingface_hub
 
