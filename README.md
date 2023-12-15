@@ -1,3 +1,5 @@
+Updated @ 2023-12-15
+
 # 从ModelScope下载模型（断点续传）
 
 ## 1、安装python虚拟环境
@@ -42,6 +44,10 @@ python ms_model_download.py --repo_id baichuan-inc/Baichuan2-13B-Chat-4bits --re
 
 ## 2. 下载模型
 ![Alt text](image-1.png)
+
+# 增加一个基于huggingface_cli的bash脚本，方便从HF下载所有模型相关文件hf_dl.sh。
+https://github.com/alexhegit/Download_LLM/blob/main/hf_dl.sh
+需要依赖安装pip install -U huggingface_hub
 
 
 # 作者
